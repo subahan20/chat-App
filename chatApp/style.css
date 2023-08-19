@@ -1,0 +1,134 @@
+/* Reset default margins and paddings */
+body, h1, h2 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* Chat section */
+.chat {
+  flex: 3;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #0077FF;
+  color: #FFF;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact-info h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  color: #FFF;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.call-button {
+  color: #0F9D58; /* Green color for call */
+}
+
+.video-button {
+  color: #DB4437; /* Red color for video */
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: scroll;
+  background-color: #F5F5F5;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #FFF;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input textarea {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  resize: none;
+}
+
+.send-button {
+  background-color: #0077FF;
+  color: #FFF;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Marketplace section */
+.marketplace {
+  flex: 1;
+  padding: 10px;
+  background-color: #F5F5F5;
+}
+/* Your existing styles */
+
+.toggle-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #0077FF;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toggle-icon.active {
+  background-color: #0F9D58; /* Green when active */
+}
+
+
+.item {
+  border: 1px solid #DDD;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #FFF;
+}

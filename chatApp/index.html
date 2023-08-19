@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chat">
+      <div class="chat-header">
+        <!-- WhatsApp-like header -->
+        <div class="contact-info">
+          <img src="image/profile.png" alt="Contact Avatar">
+          <h2>Contact Name</h2>
+        </div>
+        <div class="header-actions">
+          <!-- Add icons and actions here, e.g., call, video, etc. -->
+          <button class="action-button call-button">
+            <i class="fas fa-phone"></i>
+          </button>
+          <button class="action-button video-button">
+            <i class="fas fa-video"></i>
+          </button>
+        </div>
+      </div>
+      <div class="chat-messages">
+        <!-- Display chat messages here -->
+      </div>
+      <div class="chat-input">
+        <!-- Input area for sending messages -->
+        <textarea placeholder="Type your message..."></textarea>
+        <button class="send-button">Send</button>
+      </div>
+    </div>
+    <div class="marketplace">
+      <h2>Marketplace</h2>
+      <div class="toggle-icon" id="toggleIcon"></div>
+      <!-- Display marketplace items here -->
+      <script src="script.js"></script>
+    </div>
+  </div>
+  
+</body>
+</html>
